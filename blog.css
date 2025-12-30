@@ -436,72 +436,6 @@ a {
     }
 }
 
-/* 
-.blog-timeline {
-    padding: 40px 8%;
-}
-
-.timeline-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.timeline-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    background: rgba(255, 255, 255, 0.85);
-    padding: 18px;
-    border-radius: 14px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-}
-
-.timeline-img img {
-    width: 140px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 12px;
-}
-
-.timeline-content h3 {
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-    color: #2575fc;
-}
-
-.timeline-content .date {
-    font-size: 0.8rem;
-    opacity: 0.7;
-    margin-bottom: 8px;
-}
-
-.timeline-content p {
-    font-size: 0.95rem;
-    margin-bottom: 8px;
-}
-
-.timeline-content .read-more {
-    font-weight: 600;
-    color: #6a11cb;
-    text-decoration: none;
-}
-
-.timeline-content .read-more:hover {
-    text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-    .timeline-item {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .timeline-img img {
-        margin-bottom: 12px;
-    }
-} */
 /* Body và background */
 body {
     font-family: 'Inter', sans-serif;
@@ -661,4 +595,5 @@ body {
     object-fit: cover;
     margin-right: 15px;
     border-radius: 5px;
+
 }
