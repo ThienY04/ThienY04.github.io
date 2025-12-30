@@ -9,16 +9,14 @@ document.addEventListener("click", () => {
 
 document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.querySelectorAll(".top-nav a");
-
-    let currentPage = window.location.pathname.split("/").pop();
-    if (!currentPage) {
-        currentPage = "trangchu.html";
-    }
+    const currentPath = window.location.pathname;
 
     navLinks.forEach(link => {
         link.classList.remove("active");
 
-        if (link.getAttribute("href") === currentPage) {
+        const linkPath = new URL(link.href).pathname;
+
+        if (linkPath === currentPath) {
             link.classList.add("active");
         }
     });
@@ -59,3 +57,4 @@ searchInput.addEventListener("input", () => {
         }
     });
 });
+
